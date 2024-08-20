@@ -1,8 +1,6 @@
 package com.llllxr.service;
 
-//import com.llllxr.client.UserClient;
 import com.llllxr.pojo.User;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service

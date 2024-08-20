@@ -2,7 +2,6 @@ package com.llllxr.client.config;
 
 import feign.Logger;
 import org.springframework.cloud.openfeign.FeignLoggerFactory;
-import org.springframework.context.annotation.Configuration;
 
 /**
  * @Description 自定义Feign日志工厂
