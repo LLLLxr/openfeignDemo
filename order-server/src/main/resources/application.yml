@@ -8,14 +8,6 @@ spring:
     name: order-server
   cloud:
     openfeign:
-      compression:
-        request:
-          enabled: true
-          min-request-size: 1
-          mime-types: text/xml,application/xml,application/json
-        response:
-          enabled: true
-          useGzipDecoder: true
       client:
         config:
           default:

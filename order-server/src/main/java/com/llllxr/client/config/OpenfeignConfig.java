@@ -20,9 +20,9 @@ public class OpenfeignConfig extends FeignClientsConfiguration {
 //        return new CustomizationFeignLoggerFactory();
 //    }
 
-    @Bean
-    ErrorDecoder feignErrorDecoder() {
-        return new RetreiveMessageErrorDecoder();
-    }
+//    @Bean
+//    ErrorDecoder feignErrorDecoder() {
+//        return new RetreiveMessageErrorDecoder();
+//    }
     
 }

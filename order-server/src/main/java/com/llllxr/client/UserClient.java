@@ -12,14 +12,14 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 //@FeignClient(value = "user-server", configuration = OpenfeignConfig.class)
-@FeignClient(value = "user-server", url = "http://localhost:8081")
+//@FeignClient(value = "user-server", url = "http://localhost:8081")
+@FeignClient(value = "user-server")
 public interface UserClient {
 
     @Cacheable(cacheNames = "user",key = "#id")
     @GetMapping("/user/{id}")
     User findUserById(@PathVariable("id") int id);
-
-//    @Headers({"acceptEncoding: gzip","contentType: application/json"})
+    
     @PostMapping("/user/updateUserByBody")
     User updateUserByBody(@RequestBody User user);
 
