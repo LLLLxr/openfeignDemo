@@ -26,4 +26,16 @@ public class OrderService {
             return null;
         }
     }
+
+    public User updateUserByBody(User user) {
+        return userClient.updateUserByBody(user);
+    }
+
+    public User updateUserByPojo(User user) {
+        return userClient.updateUserByPojo(user);
+    }
+
+    public String testOverTime(String id, String name) {
+        return userClient.testOverTime(id, name);
+    }
 }

@@ -1,10 +1,21 @@
-#服务端口，随便起
 server:
   port: 8082
-#服务名称
+  compression:
+    enabled: true
+
 spring:
   application:
     name: order-server
+  cloud:
+    openfeign:
+      client:
+        config:
+          default:
+            connectTimeout: 3000
+            readTimeout: 5000
+#        httpclient: 
+#          hc5:
+#            enabled: false
 
 #eureka地址
 eureka:
@@ -14,4 +25,6 @@ eureka:
 
 logging:
   level:
-    ROOT: DEBUG
+#    ROOT: DEBUG
+    com.llllxr.client.UserClient: DEBUG
+    
