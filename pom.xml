@@ -10,11 +10,11 @@
     <artifactId>openfeignDemo</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0</version>
-<!--        <modules>-->
-<!--            <module>common-api</module>-->
-<!--            <module>order-server</module>-->
-<!--            <module>user-server</module>-->
-<!--        </modules>-->
+        <modules>
+            <module>common-api</module>
+            <module>order-server</module>
+            <module>user-server</module>
+        </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>

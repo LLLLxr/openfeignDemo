@@ -4,7 +4,6 @@ import com.llllxr.pojo.User;
 import com.llllxr.service.UserService;
 import feign.Headers;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 
 import java.text.MessageFormat;

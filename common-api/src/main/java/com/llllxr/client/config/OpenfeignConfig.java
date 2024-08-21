@@ -1,10 +1,7 @@
 package com.llllxr.client.config;
 
-import com.llllxr.client.config.error.RetreiveMessageErrorDecoder;
 import feign.Logger;
-import feign.codec.ErrorDecoder;
 import org.springframework.cloud.openfeign.FeignClientsConfiguration;
-import org.springframework.cloud.openfeign.FeignLoggerFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

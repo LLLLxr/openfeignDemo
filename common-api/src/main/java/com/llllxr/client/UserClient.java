@@ -1,8 +1,6 @@
 package com.llllxr.client;
 
-import com.llllxr.client.config.OpenfeignConfig;
 import com.llllxr.pojo.User;
-import feign.Headers;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.cloud.openfeign.SpringQueryMap;
